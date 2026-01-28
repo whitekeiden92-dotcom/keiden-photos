@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: orange;
+  color: #333;
+}
+
+/* HEADER */
+.hero {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* INTRO */
+.intro p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+}
+
+.about img {
+  width: 160px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+/* GALLERY */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+img:hover{
+  background-color: #111;
+    border-radius: 5px;
+}
+li{
+   background: wheat;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #111;
+}
+
+/* SKILLS */
+.skills ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  background: wheat;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #111;
+}
+
+/* CONTACT */
+.contact form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.contact button {
+  width: 100%;
+  padding: 10px;
+  background-color: #111;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: black;
+}
+
+/* FOOTER */
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
