@@ -15,7 +15,7 @@ It was created as part of a web development assignment.
 3. Open the index.html file in a web browser.
 
 ## Live Site
-https://whitekeiden92-dotcom.github.io/PTO/
+https://whitekeiden92-dotcom.github.io/keiden-photos/
 
 ## Technologies Used
 HTML5 and CSS3
@@ -23,6 +23,7 @@ HTML5 and CSS3
 ## License
 © 2026 Keiden White.
 Licensed under the MIT License.
+
 
 
 
